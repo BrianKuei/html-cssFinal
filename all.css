@@ -1,0 +1,340 @@
+/* CSS RESET START */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font: inherit;
+	font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+/* CSS RESET END */
+
+body{
+    margin: 0 auto;
+    width: 1200px;
+}
+/* 
+.clearfix:after{
+    clear:both;
+} */
+
+header{
+    margin: 0 auto;
+    height: 500px;
+    background:url(img/Bitmap.png) no-repeat gray;
+    background-position: 50% 100%;
+    background-size: 1200px;
+}
+.bar{
+    margin-top: 20px;
+    height: 40px;
+    background:#f6f6f6;
+}
+
+header ul{
+    float:right;
+}
+
+.bar ul li{
+    float:left;
+    margin: 12px 10px 0 0;
+}  
+ul li a{
+    text-decoration: none;
+}
+
+ul li img{
+    float:left;
+    margin-right: 3px;
+}
+
+.fb{
+    padding: 0 10px 0 0;
+    border-right: solid 2px #cccccc;
+}
+
+.fb a{
+    color:#5470af;
+}
+
+.fb a:hover{
+    color:#103ca2;
+}
+
+.twitter a{
+    color:#00aaec;
+}
+
+.twitter a:hover{
+    color:#057aa8;
+}
+
+.menu{
+    padding-top: 15px;
+    height: 50px;
+    background-color: white;
+}
+
+.menu h1{
+    float:left;
+}
+
+.menu h1 a{
+    display:block;
+    overflow:hidden;
+    margin-left: 20px;
+    width: 164px;
+    height: 39px;
+    background: url('http://www.hexschool.com/images/logo.png');
+    text-indent:101%;
+    white-space: nowrap;
+}
+
+.menu .menu_list{
+    margin-right: 20px;
+}
+
+.menu li a{
+    margin-left: 50px;
+    padding: 13px 10px;
+    color:#42d3a9;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.menu li a:hover{
+    border-bottom: 3px solid #00cc99;
+}
+
+.menu ul li{
+    float:left;
+    margin: 10px 0 5px 0;
+    
+}
+
+.banner{
+    margin-top: 7em;
+    margin-bottom:10px;
+    height: 160px;
+    background:rgba(0,0,0,0.2);
+}
+
+.banner h2{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    color: rgb(255,255,255);
+    font-size: 36px;
+    font-family: "Microsoft Jheng Hei Regular";
+    line-height: 48px;
+}
+
+article{
+    display: flex;
+    margin: 4em auto 0 auto;
+}
+
+h3{
+    margin-bottom: 15px;
+    color: rgb(51,51,51);
+    text-align: center;
+    font-weight:bold;
+    font-size: 23px;
+    font-family: "Microsoft Jheng Hei Regular";
+    line-height: 24px;
+}
+
+article section p{
+    margin-left: 60px;
+    width: 260px;
+    height: 140px;
+    color: rgb(51,51,51);
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Microsoft Jheng Hei Regular";
+    line-height: 22px;
+
+}
+
+#img_responsive img{
+    width: 100%;
+}
+
+#img_jquery p{
+    width: 260px;
+    height: 30px;
+}
+
+article ul{
+    margin-left: 85px;
+    list-style: initial;
+}
+
+article section{
+    margin-left:15px;
+    width: 380px;
+    height: 430px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.16);
+    }
+
+article section img{
+    display: block;
+    margin: 0 auto;
+	max-width: 100%;
+	max-height: 100%;
+    width: 43%;
+}
+
+article section div{
+    height: 15em;
+}
+
+.table_title{
+    padding-top: 50px;
+    color: rgb(51,51,51);
+    text-align: center;
+    font-size: 24px;
+    font-family: "Microsoft Jheng Hei Regular";
+    line-height: 22px;
+}
+
+table{
+    width: 1000px;
+}
+
+.price{
+    margin: 30px auto;
+}
+.price th, .price td{
+    border-top: solid 1px #dddddd;
+    border-bottom: solid 1px  #dddddd;
+    text-align:center;;
+}
+.price th{
+    padding: 10px;
+    background:#f7f7f7;
+}
+.price td{
+    padding:10px;
+}
+span{
+    color: #02b085;
+}
+
+.form{
+    margin: 90px auto 0 auto;
+    padding-bottom: 100px;
+    background-image: linear-gradient(0deg, #009771 0%, #00634b 100%);
+}
+.form h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 24px;
+    font-family: "Microsoft Jheng Hei Regular";
+    line-height: 36px;
+}
+.form form textarea{
+    margin-left: 50px;
+    width: 460px;
+    height: 245px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+.form p{
+    float: right;
+    color: rgb(255,255,255);
+    font-size: 15px;
+    font-family: "Microsoft Jheng Hei Regular";
+    line-height: 24px;
+}
+.form p input{
+    margin-right: 25px;
+    margin-bottom: 10px;
+    width: 630px;
+    height: 32px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background-color: #ffffff;
+
+}
+.form form button{
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 70px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #00cb99;
+    color: rgb(255,255,255);
+    font-size: 15px;
+    font-family: "Microsoft Jheng Hei Regular";
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.form form button:hover{
+    background: #64d3de;
+}
+
+
+footer{
+    margin: 0 auto;
+    height: 150px;
+}
+footer img{
+    display: inline-block;
+    margin-top: 20px;
+    width: 200px;
+}
+footer p{
+    float: right;
+    margin-top: 25px;
+    color: rgb(51,51,51);
+    font-size: 15px;
+    font-family: "Microsoft Jheng Hei Regular";
+    line-height: 24px;
+}
+footer p a {
+    color: #e54991;
+    text-decoration:none;
+}
